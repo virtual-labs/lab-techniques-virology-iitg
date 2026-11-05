@@ -1,141 +1,106 @@
 {
   "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
+    "name": "Biotechnology and Biomedical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering",
+    "code": "BIO"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
+  "lab": "Techniques in Virology",
+  "lab_display_name": "Techniques in Virology",
+  "phase": "3-ext",
+  "collegeName": "IITG",
+  "baseUrl": "tiv-iitg.vlabs.ac.in",
+  "introduction": "The Techniques in Virology virtual lab is an interactive and practical learning tool that introduces and explores fundamental and advanced techniques used within virology. Due to strict biosafety regulations, high containment facility requirements (BSL-2/BSL-3), and costly consumables, practical training in virology is often limited within traditional teaching environments. This virtual lab provides students with an engaging, intuitive, and safe platform to explore these essential laboratory workflows. Through 10 comprehensive experimental modules, students learn how to isolate viruses from biological samples, extract and purify viral nucleic acids (RNA/DNA), quantify viral loads using real-time PCR (qPCR), and determine infectious viral titre via plaque assays and the median tissue culture infectious dose (TCID50) method. The lab also introduces critical serological and immunological diagnostics including hemagglutination (HA), hemagglutination inhibition (HI), and virus neutralization assays as well as viral protein characterization through Western blotting and the analysis of viral replication kinetics via viral growth curves.",
+  "experiments": [
     {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
+      "name": "Isolation of the virus from the sample",
+      "short-name": "isolation-virus",
+      "repo": "https://github.com/virtual-labs/exp-isolation-virus-iitg",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
+      "name": "Viral RNA/DNA Extraction and Quantification",
+      "short-name": "rna-dna-extraction",
+      "repo": "https://github.com/virtual-labs/exp-rna-dna-extraction-iitg",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
+      "name": "Quantification of virus by Real-Time PCR (qPCR)",
+      "short-name": "qunatification-virus-pcr",
+      "repo": "https://github.com/virtual-labs/exp-qunatification-virus-pcr-iitg",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
+      "name": "Plaque assay for the quantification of the virus",
+      "short-name": "plaque-assay",
+      "repo": "https://github.com/virtual-labs/exp-plaque-assay-iitg",
+      "tag": "v1.0.0",
+      "deploy": true
     },
     {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
+      "name": "Quantification of virus by TCID₅₀ assay",
+      "short-name": "tcid-assay",
+      "repo": "https://github.com/virtual-labs/exp-tcid-assay-iitg",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Hemagglutination (HA) assay",
+      "short-name": "hemagglutination-assay",
+      "repo": "https://github.com/virtual-labs/exp-hemagglutination-assay-iitg",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Hemagglutination Inhibition Test (HI)",
+      "short-name": "hemagglutination-inhibition",
+      "repo": "https://github.com/virtual-labs/exp-hemagglutination-inhibition-iitg",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Virus Growth Curve",
+      "short-name": "virus-growth-curve",
+      "repo": "https://github.com/virtual-labs/exp-virus-growth-curve-iitg",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Western Blot analysis for the detection of viral proteins",
+      "short-name": "western-blot",
+      "repo": "https://github.com/virtual-labs/exp-western-blot-iitg",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Viral neutralization assay",
+      "short-name": "viral-neutralization-assay",
+      "repo": "https://github.com/virtual-labs/exp-viral-neutralization-assay-iitg",
+      "tag": "v1.0.0",
+      "deploy": true
     }
   ],
   "targetAudience": {
     "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
+      "UG (1st Year/ 2nd Year)",
+      "UG (3rd Year/ 4th Year)"
     ],
-    "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
-    ]
+    "PG": [ "Learners interested in concepts of Virology"]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+  "objective": "To impart theoretical understanding and virtual hands-on training in isolating, propagating, quantifying, and molecularly characterizing viruses, as well as evaluating host immune responses and neutralization titers safely without biosafety hazards.\n\n<ul><li>Master how viruses are detected and measured: Help students understand both traditional benchmark assays (like plaque counting and hemagglutination) and modern molecular tools (such as qPCR and Western blotting), learning when and why to use each technique.</li><li>Make the viral life cycle tangible: Move beyond textbook diagrams by letting students track viral replication step-by-step, seeing how a virus attaches, multiplies inside host cells, and releases new particles over time.</li><li>Learn quantitative analysis and observation firsthand: Allow students to spot real cytopathic effects under a microscope, count plaques, and work through standard calculation methods (like PFU/mL and TCID50) at their own pace and in a risk-free environment.</li></ul>",
   "courseAlignment": {
     "description": "The syllabi of this lab aligns to the following universities in India.",
     "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
+      "The Techniques in Virology is particularly relevant to undergraduate programs in Biosciences and Bioengineering, Biotechnology, Microbiology, and allied life sciences. The laboratory directly supports and complements the learning outcomes of courses including Microbiology (BS203), Genetics (BS205) and Cell and Molecular Biology (BS209) and Immunology and Immunotechnology (PC206).",
+      "University Kolhapur: DSE-304 — B. Tech: Biotechnology",
+      "Birla Institute of Technology, Ranchi: BT3024, BT4025, BT4024 — B. Tech: Biotechnology",
+      "Banasthali Vidyapith, Rajasthan: BT4.5, BT5.2 — B. Tech: Biotechnology",
+      "Gujarat Technological University, Ahmedabad: 130401, 140401, 150402 — B. Tech: Biomedical Engineering",
+      "Dr. Babasaheb Ambedkar Technological University, Lonere: BTBM402, BTBM404 — B. Tech: Biomedical Engineering",
+      "Punjab Technical University, Jalandhar: BTBT303, BTBT302 — B. Tech: Biotechnology",
+      "Maharshi Dayanand University, Rohtak: BTF301, PCC-BT301G, BTF317 — B. Tech: Biotechnology"
     ]
-
- 
+  }
 }
