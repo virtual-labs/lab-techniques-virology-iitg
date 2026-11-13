@@ -36,7 +36,7 @@
       "name": "Plaque assay for the quantification of the virus",
       "short-name": "plaque-assay",
       "repo": "https://github.com/virtual-labs/exp-plaque-assay-iitg",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
